@@ -1,0 +1,47 @@
+# Общие файлы и папки Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Файлы и папки виртуальных окружений
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Логи и временные файлы
+*.log
+*.pot
+*.pid
+*.pyc
+
+# Конфигурационные файлы IDE PyCharm
+.idea/
+*.iml
+*.iws
+.idea/*
+
+# Настройки окружения
+*.env
+.env.*
+
+# Исключение файлов базы данных
+*.sqlite3
+
+# Исключение зависимостей
+Pipfile.lock
+
+# Исключение кэш файлов, общих файлов среды разработки и временных файлов
+*.DS_Store
+*.swp
+*~
+
+# Исключение Docker файлов (если используется)
+docker-compose.override.yml
+.dockerignore
+
+# Исключение node_modules (если используется npm/yarn)
+node_modules/

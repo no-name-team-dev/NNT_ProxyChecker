@@ -1,0 +1,4 @@
+requests
+QDarkStyle
+PyQt5
+better_proxy
